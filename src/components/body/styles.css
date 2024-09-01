@@ -1,0 +1,48 @@
+.logo{
+  width: 10%;
+  margin-left: 120px;
+  border-radius: 180px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-image: url(./background.jpg);
+  background-position: center;
+}
+
+.buttons{
+  border-bottom: solid 2px white;
+  padding: 2px;
+  transition: 0.5s;
+}
+
+.buttons:hover{
+  border-bottom: solid 2px #381c10;
+}
+
+.buttons a{
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #381c10;
+}
+
+ul{
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  font-size: 23px;
+}
+
+nav a{
+  color: white;
+}
+
+

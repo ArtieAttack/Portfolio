@@ -1,0 +1,47 @@
+.contact h1{
+  margin-left: 20px;
+}
+
+.contact{
+  padding: 80px;
+  background-color: #f6c5af;
+}
+
+.contact-info{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 280px;
+}
+
+form{
+  width: 100%;
+}
+
+fieldset{
+  border: none;
+}
+
+label, input, textarea{
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+input, textarea{
+  background-color: #fadacd;
+  border: 1px solid transparent;
+  border-color: #C2714F;
+  border-radius: 8px;
+}
+
+.btn{
+  margin-top: 20px;
+  transition: .5s;
+}
+
+.btn:hover{
+  background-color: #C2714F;
+  color: #fff;
+}

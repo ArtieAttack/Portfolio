@@ -1,0 +1,19 @@
+.about{
+  display: inline-flex;
+}
+.curso{
+  color: #F6C5AF;
+}
+
+.photos{
+  width: 18%;
+  margin: 80px 0px 0px 380px;
+  border-radius: 30px;
+}
+
+.about-content{
+  text-align: justify;
+  font-size: 20px;
+  padding: 10px 400px;
+  margin: 80px 0px 0px -350px;
+}

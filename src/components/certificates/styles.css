@@ -1,0 +1,33 @@
+.images-content{
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.images {
+  display: inline;
+  width: 480px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: transform 100ms ease-in-out;
+}
+
+.images:hover{
+  transform: scale(1.15);
+}
+
+.certificates h1{
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.certificates{
+  padding: 20px;
+}
+
+.text-certificates{
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px 80px;
+}
+
